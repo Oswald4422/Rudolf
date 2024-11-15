@@ -7,7 +7,7 @@ fs.readFile("users.json","utf8", (error,data)=>{
     users = JSON.parse(data)
 })
 
-const PORT = 5000
+const PORT = 3000
 
 app.get('/',(req,res)=>{
     res.send("Welcome to my server")
